@@ -85,7 +85,7 @@ public class Order_Page extends JFrame {
         checkItOutButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                double result = checkService.check(basketMap);
+                String result = checkService.check(basketMap);
                 JOptionPane.showMessageDialog(TopPanel, result);
 
             }

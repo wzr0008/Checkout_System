@@ -64,7 +64,6 @@ public class MyActionListener implements ActionListener {
             public void actionPerformed(ActionEvent e) {
                 ProductDAO productDao=new ProductDAO();
                 String content=temp.getText();
-                System.out.println(content);
                 String[] part=content.split(",");
                 String name=part[0];
                 String price=part[1];

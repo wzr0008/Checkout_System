@@ -6,6 +6,6 @@ import java.util.*;
 
 public interface CheckService {
        public Map<Integer, BasketDAO> getMap();
-       public double check(Map<Integer,BasketDAO> map);
+       public String check(Map<Integer,BasketDAO> map);
 
 }
